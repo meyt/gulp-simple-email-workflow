@@ -1,0 +1,25 @@
+{% extends "master.nunjs" %}
+{% block masterContent %}
+  <!--[if (gte mso 9)|(IE)]>
+  <table width="600" align="center">
+    <tr>
+      <td>
+        <![endif]-->
+        <table class="outer" align="center">
+          <tr>
+            <td class="full-width-image">
+              <img src="../images/header.png" width="600" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              {% block content %} {% endblock %}
+            </td>
+          </tr>
+        </table>
+        <!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+  <![endif]-->
+{% endblock %}

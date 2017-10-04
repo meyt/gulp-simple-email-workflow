@@ -1,0 +1,16 @@
+{% extends "layouts/default.nunjs" %}
+{% block headTitle %}{{ headTitlePrefix }}Welcome to my website{% endblock %}
+{% block content %}
+  <tr>
+    <td class="one-column">
+      <table width="100%">
+        <tr>
+          <td class="inner contents">
+            <p class="h1">Lorem ipsum dolor sit amet</p>
+            <p>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+{% endblock %}

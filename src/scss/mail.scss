@@ -1,0 +1,121 @@
+/* CLIENT-SPECIFIC STYLES */
+
+body, table, td, a {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+table, td {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+/* RESET STYLES */
+
+table {
+  border-collapse: collapse !important;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+/* iOS BLUE LINKS */
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+/* ANDROID CENTER FIX */
+
+div[style*="margin: 16px 0;"] {
+  margin: 0 !important;
+}
+
+
+
+
+/* Basics */
+body {
+  background-color: #ffffff;
+}
+table {
+  border-spacing: 0;
+  font-family: sans-serif;
+  color: #333333;
+}
+td {
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  table-layout: fixed;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.webkit {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.outer {
+  Margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.full-width-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.inner {
+  padding: 10px;
+}
+p {
+  Margin: 0;
+}
+a {
+  color: #ee6a56;
+  text-decoration: underline;
+}
+.h1 {
+  font-size: 21px;
+  font-weight: bold;
+  Margin-bottom: 18px;
+}
+.h2 {
+  font-size: 18px;
+  font-weight: bold;
+  Margin-bottom: 12px;
+}
+ 
+/* One column layout */
+.one-column .contents {
+  text-align: left;
+}
+.one-column p {
+  font-size: 14px;
+  Margin-bottom: 10px;
+}
+
+@media (max-width: 320px){
+  .one-column p {
+    font-size: 16px;
+  }
+}
